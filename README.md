@@ -22,7 +22,7 @@ lightweight CSS library for including SVG patterns into your website
 <ul>
   <li>p-school</li>
   <li>p-service</li>
-  <li>p-social-media</li
+  <li>p-social-media</li>
   <li>p-festive</li>
   <li>p-bathroom</li>
   <li>p-food</li>
