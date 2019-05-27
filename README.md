@@ -11,7 +11,7 @@ lightweight CSS library for including SVG patterns into your website
 
 <h1>Usage</h1>
 
-<h4>Add on of the pattern classes</h4>
+<h4>Add one of the pattern classes</h4>
 
 ```html
 <div class="p-warning"></div>
