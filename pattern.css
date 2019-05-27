@@ -1,0 +1,222 @@
+:root {
+  --s:251px;
+  --o:1;
+  --gs:0;
+  --hr:0deg;
+
+  --p-school:url("patterns/school.svg");
+  --p-service:url("patterns/service.svg");
+  --p-social-media:url("patterns/social-media.svg");
+  --p-festive:url("patterns/festive.svg");
+  --p-bathroom:url("patterns/bathroom.svg");
+  --p-food:url("patterns/food.svg");
+  --p-space:url("patterns/space.svg");
+  --p-flower:url("patterns/flower.svg");
+  --p-sea:url("patterns/sea.svg");
+  --p-animal:url("patterns/animal.svg");
+  --p-money:url("patterns/money.svg");
+  --p-map:url("patterns/map.svg");
+  --p-city:url("patterns/city.svg");
+  --p-night:url("patterns/night.svg");
+  --p-weather:url("patterns/weather.svg");
+  --p-date:url("patterns/date.svg");
+  --p-halloween:url("patterns/halloween.svg");
+  --p-party:url("patterns/party.svg");
+  --p-music:url("patterns/music.svg");
+  --p-science:url("patterns/science.svg");
+  --p-video-games:url("patterns/video-games.svg");
+  --p-fitness:url("patterns/fitness.svg");
+  --p-sports:url("patterns/sports.svg");
+  --p-people:url("patterns/people.svg");
+  --p-books:url("patterns/books.svg");
+  --p-pc:url("patterns/pc.svg");
+  --p-web:url("patterns/web.svg");
+  --p-warning:url("patterns/warning.svg");
+  --p-security:url("patterns/security.svg");
+  --p-health:url("patterns/health.svg");
+  --p-success:url("patterns/success.svg");
+  --p-shopping:url("patterns/shopping.svg");
+  --p-office:url("patterns/office.svg");
+  --p-cloths:url("patterns/cloths.svg");
+  --p-cars:url("patterns/cars.svg");
+  --p-files:url("patterns/files.svg");
+  --p-phones:url("patterns/phones.svg");
+  --p-weapons:url("patterns/weapons.svg");
+  --p-bugs:url("patterns/bugs.svg");
+  --p-support:url("patterns/support.svg");
+}
+
+*[class*="p-"][p-size="xxxs"] {--s: 101px}
+*[class*="p-"][p-size="xxs"] {--s: 175px}
+*[class*="p-"][p-size="xs"] {--s: 251px}
+*[class*="p-"][p-size="s"] {--s: 325px}
+*[class*="p-"][p-size="m"] {--s: 401px}
+*[class*="p-"][p-size="l"] {--s: 475px}
+*[class*="p-"][p-size="xl"] {--s: 551px}
+*[class*="p-"][p-size="xxl"] {--s: 625px}
+*[class*="p-"][p-size="xxxl"] {--s: 701px}
+
+*[class*="p-"][p-opacity=".1"] {--o: .1}
+*[class*="p-"][p-opacity=".2"] {--o: .2}
+*[class*="p-"][p-opacity=".3"] {--o: .3}
+*[class*="p-"][p-opacity=".4"] {--o: .4}
+*[class*="p-"][p-opacity=".5"] {--o: .5}
+*[class*="p-"][p-opacity=".6"] {--o: .6}
+*[class*="p-"][p-opacity=".7"] {--o: .7}
+*[class*="p-"][p-opacity=".8"] {--o: .8}
+*[class*="p-"][p-opacity=".9"] {--o: .9}
+
+*[class*="p-"][p-grayscale="true"]{--gs:1}
+
+*[class*="p-"][p-color="red"]{--hr:10deg}
+*[class*="p-"][p-color="dark orange"]{--hr:20deg}
+*[class*="p-"][p-color="orange"]{--hr:30deg}
+*[class*="p-"][p-color="light orange"]{--hr:40deg}
+*[class*="p-"][p-color="dark brown"]{--hr:50deg}
+*[class*="p-"][p-color="brown"]{--hr:60deg}
+*[class*="p-"][p-color="light brown"]{--hr:70deg}
+*[class*="p-"][p-color="tan"]{--hr:80deg}
+*[class*="p-"][p-color="dark tan"]{--hr:90deg}
+*[class*="p-"][p-color="dark green"]{--hr:110deg}
+*[class*="p-"][p-color="green"]{--hr:120deg}
+*[class*="p-"][p-color="light green"]{--hr:150deg}
+*[class*="p-"][p-color="teal"]{--hr:190deg}
+*[class*="p-"][p-color="dark blue"]{--hr:220deg}
+*[class*="p-"][p-color="blue"]{--hr:230deg}
+*[class*="p-"][p-color="light blue"]{--hr:240deg}
+*[class*="p-"][p-color="dark purple"]{--hr:260deg}
+*[class*="p-"][p-color="purple"]{--hr:270deg}
+*[class*="p-"][p-color="light purple"]{--hr:300deg}
+*[class*="p-"][p-color="dark pink"]{--hr:330deg}
+*[class*="p-"][p-color="pink"]{--hr:340deg}
+*[class*="p-"][p-color="light pink"]{--hr:350deg}
+
+
+*[class*="p-"]::before{
+  content: "";
+  height:100%;
+  width:100%;
+  position: absolute;
+  filter: grayscale(var(--gs)) hue-rotate(var(--hr));
+  opacity: var(--o);
+}
+
+.p-school::before{
+  background: var(--p-school) center/var(--s);
+}
+.p-service::before{
+  background: var(--p-service) center/var(--s);
+}
+.p-social-media::before{
+  background: var(--p-social-media) center/var(--s);
+}
+.p-festive::before{
+  background: var(--p-festive) center/var(--s);
+}
+.p-bathroom::before{
+  background: var(--p-bathroom) center/var(--s);
+}
+.p-food::before{
+  background: var(--p-food) center/var(--s);
+}
+.p-space::before{
+  background: var(--p-space) center/var(--s);
+}
+.p-flower::before{
+  background: var(--p-flower) center/var(--s);
+}
+.p-sea::before{
+  background: var(--p-sea) center/var(--s);
+}
+.p-animal::before{
+  background: var(--p-animal) center/var(--s);
+}
+.p-money::before{
+  background: var(--p-money) center/var(--s);
+}
+.p-map::before{
+  background: var(--p-map) center/var(--s);
+}
+.p-city::before{
+  background: var(--p-city) center/var(--s);
+}
+.p-weather::before{
+  background: var(--p-weather) center/var(--s);
+}
+.p-date::before{
+  background: var(--p-date) center/var(--s);
+}
+.p-halloween::before{
+  background: var(--p-halloween) center/var(--s);
+}
+.p-party::before{
+  background: var(--p-party) center/var(--s);
+}
+.p-music::before{
+  background: var(--p-music) center/var(--s);
+}
+.p-science::before{
+  background: var(--p-science) center/var(--s);
+}
+.p-video-games::before{
+  background: var(--p-video-games) center/var(--s);
+}
+.p-fitness::before{
+  background: var(--p-fitness) center/var(--s);
+}
+.p-sports::before{
+  background: var(--p-sports) center/var(--s);
+}
+.p-people::before{
+  background: var(--p-people) center/var(--s);
+}
+.p-books::before{
+  background: var(--p-books) center/var(--s);
+}
+.p-pc::before{
+  background: var(--p-pc) center/var(--s);
+}
+.p-web::before{
+  background: var(--p-web) center/var(--s);
+}
+.p-warning::before{
+  background: var(--p-warning) center/var(--s);
+}
+.p-security::before{
+  background: var(--p-security) center/var(--s);
+}
+.p-health::before{
+  background: var(--p-health) center/var(--s);
+}
+.p-success::before{
+  background: var(--p-success) center/var(--s);
+}
+.p-shopping::before{
+  background: var(--p-shopping) center/var(--s);
+}
+.p-office::before{
+  background: var(--p-office) center/var(--s);
+}
+.p-cloths::before{
+  background: var(--p-cloths) center/var(--s);
+}
+.p-cars::before{
+  background: var(--p-cars) center/var(--s);
+}
+.p-files::before{
+  background: var(--p-files) center/var(--s);
+}
+.p-phones::before{
+  background: var(--p-phones) center/var(--s);
+}
+.p-weapons::before{
+  background: var(--p-weapons) center/var(--s);
+}
+.p-bugs::before{
+  background: var(--p-bugs) center/var(--s);
+}
+.p-support::before{
+  background: var(--p-support) center/var(--s);
+}
+
+
