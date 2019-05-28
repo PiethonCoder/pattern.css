@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+:root {
+  --color1: rgb(33, 190, 221);
+  --color2: rgb(75, 209, 144);
+  --color3: rgb(186, 52, 105);
+  --color4: rgb(229, 158, 25);
+  --font:font-family: 'Vollkorn', serif;
+}
+
+header::before{
+  background-attachment: fixed;
+}
+
+#pattern-list{
+   box-shadow: 3px 5px 7px 2px #bbb;
+}
+
+.pattern-block{
+  height:30%;
+  width:10%;
+  float:left;
+  border:6px solid black;
+  border-radius: 22px;
+}

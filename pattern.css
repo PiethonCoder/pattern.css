@@ -96,6 +96,8 @@
   content: "";
   height:100%;
   width:100%;
+  top:0;
+  left:0;
   position: absolute;
   filter: grayscale(var(--gs)) hue-rotate(var(--hr));
   opacity: var(--o);
