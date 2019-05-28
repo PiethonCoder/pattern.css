@@ -96,7 +96,7 @@ lightweight CSS library for including SVG patterns into your website
     <li>.8</li>
     <li>.9</li>
   </ul>
-  <li>p-greyscale (default is false)</li>
+  <li>p-grayscale (default is false)</li>
   <ul>
     <li>true</li>
   </ul>
