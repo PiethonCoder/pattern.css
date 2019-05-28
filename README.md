@@ -1,7 +1,7 @@
 # pattern.css
 lightweight CSS library for including SVG patterns into your website
 
-See all the patterns <a href="">here</a>
+See all the patterns <a href="https://pattern.tk/">here</a> (https://pattern.tk/)
 
 <img src="https://piethoncoder.github.io/pattern.css/media/hero.png" height="auto" width="100%">
 
