@@ -67,6 +67,7 @@
 *[class*="p-"][p-opacity=".9"] {--o: .9}
 
 *[class*="p-"][p-grayscale="true"]{--gs:1}
+*[class*="p-"][p-grayscale="false"]{--gs:0}
 
 *[class*="p-"][p-color="red"]{--hr:10deg}
 *[class*="p-"][p-color="dark orange"]{--hr:20deg}
