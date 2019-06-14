@@ -3,14 +3,14 @@ lightweight CSS library for including SVG patterns into your website
 
 See all the patterns <a href="https://pattern.tk/">here</a> (https://pattern.tk/)
 
-<img src="https://piethoncoder.github.io/pattern.css/media/hero.png" height="auto" width="100%">
+<img src="https://foobar404.github.io/pattern.css/media/hero.png" height="auto" width="100%">
 
 <h1>Include</h1>
 
 <h3>CDN Link</h3>
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PiethonCoder/pattern.css/pattern.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/foobar404/pattern.css/pattern.css">
 ```
 
 <h1>Usage</h1>
